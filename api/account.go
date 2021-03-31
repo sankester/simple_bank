@@ -1,9 +1,10 @@
 package api
 
 import (
-	db "backend-master-class/db/sqlc"
 	"database/sql"
 	"net/http"
+
+	db "github.com/sankester/simple_bank/db/sqlc"
 
 	"github.com/gin-gonic/gin"
 )

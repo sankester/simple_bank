@@ -1,11 +1,12 @@
 package db
 
 import (
-	"backend-master-class/utils"
 	"context"
 	"database/sql"
 	"testing"
 	"time"
+
+	"github.com/sankester/simple_bank/utils"
 
 	"github.com/stretchr/testify/require"
 )

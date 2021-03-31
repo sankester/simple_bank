@@ -1,11 +1,12 @@
 package main
 
 import (
-	"backend-master-class/api"
-	db "backend-master-class/db/sqlc"
-	"backend-master-class/utils"
 	"database/sql"
 	"log"
+
+	"github.com/sankester/simple_bank/api"
+	db "github.com/sankester/simple_bank/db/sqlc"
+	"github.com/sankester/simple_bank/utils"
 
 	_ "github.com/lib/pq"
 )

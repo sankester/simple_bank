@@ -1,11 +1,12 @@
 package db
 
 import (
-	"backend-master-class/utils"
 	"database/sql"
 	"log"
 	"os"
 	"testing"
+
+	"github.com/sankester/simple_bank/utils"
 
 	_ "github.com/lib/pq"
 )
