@@ -21,6 +21,12 @@ docker exec -it postgres12 psql -U root
 
 [Postgres Go Migrate Tutorial](https://github.com/golang-migrate/migrate/blob/master/database/postgres/TUTORIAL.md)
 
+### go migarete command
+- create migration 
+    ```
+    migrate create -ext sql -dir db/migrations -seq create_users_table
+    ```
+
 ## Database
 
 ### create new DB
